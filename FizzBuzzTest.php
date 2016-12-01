@@ -1,13 +1,13 @@
 <?php
 for ($i = 1; $i <= 100; $i++){
 	if ($i%15 == 0){
-		echo "FizzBuzz"."<br>";
+		echo "FizzBuzz, ";
 	} else if ($i%3 == 0) {
-		echo "Fizz"."<br>";
+		echo "Fizz, ";
 	} else if ($i%5 == 0) {
-		echo "Buzz"."<br>";
+		echo "Buzz, ";
 	} else {	
-		echo "$i"."<br>";
+		echo "$i, ";
 	}	
 }
 ?>
